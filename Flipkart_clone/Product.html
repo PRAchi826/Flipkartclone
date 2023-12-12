@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./product.css" />
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- inline stylesheet -->
+    <!-- internal css -->
+    <!-- external css -->
+    <!-- id, class -->
+
+    <div id="container"></div>
+    <!-- Navbar -->
+
+    <!-- list of categories -->
+
+    <section id="products">
+      <div  id="Filter" style="width: 25%; height: 100vh">
+        
+            <section>
+               <h2>Filters</h2>
+              <select id="item" name="forma" onchange="location = this.value;">
+                   <option value="electronics">Categories</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="winter wear">winter wear</option>
+                    <option value="top wear">top wear</option>
+                    <option value="Dresses and Gowns">Dresses and gowns</option>
+                    <option value="clothing">Kurtas and Ethnic Sets</option>
+                </select>
+                
+                <select id="item" name="forma" onchange="location = this.value;">
+                  <option value="">Gender</option>
+                    <option value="Women">Women</option>
+                    <option value="Men">Men</option>
+                    <option value="kid">Kid</option>
+                    <option value="girl">Girl</option>
+                    <option value="Boy">Boy</option>
+                </select>
+
+                <select id="item" name="forma" onchange="location = this.value;">
+                  <option value="">Brand</option>
+                    <option value="Adidas">adidas</option>
+                    <option value="Allen Soly">Allen Soly</option>
+                    <option value="Amante">Amante</option>
+                    <option value="Arrow">Arrow</option>
+                    <option value="Aurelia">Aurelia</option>
+                </select>
+
+                <select id="item" name="forma" onchange="location = this.value;">
+                    <option value="">Discount</option>
+                    <option value="30% and more">30% and more</option>
+                    <option value="40% and more">40% and more</option>
+                    <option value="50% and more">50% and more</option>
+                    <option value="60% and more">60% and more</option>
+                </select> 
+
+                
+                
+                  <select id="item" name="forma" onchange="location = this.value;">
+                    <option value="">Customer Ratings</option>
+                    <option value="4* and more">30% and more</option>
+                    <option value="5* and more">40% and more</option>
+                </select> 
+            
+                <select id="item" name="forma" onchange="location = this.value;">
+                    <option value="">Special Offers</option>
+                    <option value="Buy more and save more">Buy more and save more</option>
+                    <option value="No cost and EMI">No cost and EMI</option>
+                    <option value="Special Prize">Special Prize</option>
+                  </select>  
+                </section>
+              
+
+      </div>
+      <div style="width: 75%;background-color: white;padding: 5px;margin: 16px;" >
+        <div style="display: flex;" id="topmenu">
+          <span> Sort By </span>
+          <span> Popularity </span>
+          <span> Price -- Low to High </span>
+          <span> Price -- High to Low </span>
+        </div>
+        <div id="collection"></div>
+      </div>
+    </section>
+   
+
+    <section id="footer">
+      <div>
+        <li class="heading">About</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">Help</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">CONUSMER POLICY</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">Social</li>
+        <li>Instagram</li>
+        <li>LinkedIn</li>
+        <li>Facebook</li>
+        <li>X</li>
+      </div>
+      <div>
+        <li class="heading">Address</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+      <div>
+        <li class="heading">Contact us</li>
+        <li>About Us</li>
+        <li>Career</li>
+        <li>Flipkart Stories</li>
+        <li>Cleartrip</li>
+      </div>
+    </section>
+  
+</html>
+<script>
+  $(function () {
+    $("#container").load("./Navabar.html");
+  });
+</script>
+<script src="./Product.js"></script>

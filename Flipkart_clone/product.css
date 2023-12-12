@@ -1,0 +1,111 @@
+#products{
+    display: flex;
+}
+
+#topmenu >span{
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+#collection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+
+#collection >div{
+ 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;    
+}
+
+.avatar{
+    height: 275px;
+    width: 100%;
+}
+.box:hover{
+    transform: scale(1.07);
+}
+
+.innerbox{
+    display: flex;
+    padding: 3px;
+    
+}
+
+
+
+/* Add your CSS styles here */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.filters {
+    width: 30%;
+}
+
+.products {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 45%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+ 
+
+#Filter{
+
+    flex-direction: column;
+    padding: 5px;
+    margin: 16px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+   
+}
+
+#item{
+    display: flex;
+ padding: 16px;
+ width: 100%;
+ border-bottom: 1px solid rgb(233, 228, 228);
+   
+}
+.ac{
+    text-decoration: line-through;
+    padding-left: 8px;
+}
+.dis{
+    font-weight: bold;
+    color: rgb(71, 189, 71);
+    padding-left: 8px;
+}
+.logo{
+    height: 25px;
+    width: 70px;
+    padding-left: 10px;
+
+}
+.p1{
+    padding-left: 10px;
+}
+.brand{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size:17px ;
+}
+
